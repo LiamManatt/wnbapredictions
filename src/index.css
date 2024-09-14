@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sportsbook-icon {
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
+  margin-right: 5px;
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "name": "Rhyne Howard",
+    "team": "ATL",
+    "prediction": 16.92,
+    "line": 19.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Rhyne Howard",
+    "team": "ATL",
+    "prediction": 23.54,
+    "line": 27.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Rhyne Howard",
+    "team": "ATL",
+    "prediction": 3.74,
+    "line": 4.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Ariel Atkins",
+    "team": "WAS",
+    "prediction": 16.93,
+    "line": 19.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Ariel Atkins",
+    "team": "WAS",
+    "prediction": 11.67,
+    "line": 12.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Allisha Gray",
+    "team": "ATL",
+    "prediction": 15.99,
+    "line": 15.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Allisha Gray",
+    "team": "ATL",
+    "prediction": 4.68,
+    "line": 4.0,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Allisha Gray",
+    "team": "ATL",
+    "prediction": 22.74,
+    "line": 22.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Allisha Gray",
+    "team": "ATL",
+    "prediction": 13.27,
+    "line": 13.0,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Tina Charles",
+    "team": "ATL",
+    "prediction": 15.01,
+    "line": 16.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Tina Charles",
+    "team": "ATL",
+    "prediction": 25.96,
+    "line": 29.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Tina Charles",
+    "team": "ATL",
+    "prediction": 6.29,
+    "line": 7.5,
+    "stat": "Defensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Tina Charles",
+    "team": "ATL",
+    "prediction": 13.27,
+    "line": 14.5,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Brittney Sykes",
+    "team": "WAS",
+    "prediction": 20.26,
+    "line": 19.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Brittney Sykes",
+    "team": "WAS",
+    "prediction": 13.64,
+    "line": 12.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Brittney Sykes",
+    "team": "WAS",
+    "prediction": 3.73,
+    "line": 4.0,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jordin Canada",
+    "team": "ATL",
+    "prediction": 5.03,
+    "line": 6.0,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jordin Canada",
+    "team": "ATL",
+    "prediction": 18.47,
+    "line": 19.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jordin Canada",
+    "team": "ATL",
+    "prediction": 10.27,
+    "line": 10.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Jordin Canada",
+    "team": "ATL",
+    "prediction": 0.57,
+    "line": 0.5,
+    "stat": "Offensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Stefanie Dolson",
+    "team": "WAS",
+    "prediction": 4.58,
+    "line": 4.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Stefanie Dolson",
+    "team": "WAS",
+    "prediction": 8.54,
+    "line": 9.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Stefanie Dolson",
+    "team": "WAS",
+    "prediction": 15.4,
+    "line": 16.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Aaliyah Edwards",
+    "team": "WAS",
+    "prediction": 13.13,
+    "line": 15.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Aaliyah Edwards",
+    "team": "WAS",
+    "prediction": 6.05,
+    "line": 8.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Aaliyah Edwards",
+    "team": "WAS",
+    "prediction": 4.92,
+    "line": 6.0,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Caitlin Clark",
+    "team": "IND",
+    "prediction": 30.12,
+    "line": 36.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Caitlin Clark",
+    "team": "IND",
+    "prediction": 7.31,
+    "line": 9.0,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Caitlin Clark",
+    "team": "IND",
+    "prediction": 5.66,
+    "line": 5.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Caitlin Clark",
+    "team": "IND",
+    "prediction": 18.98,
+    "line": 22.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Caitlin Clark",
+    "team": "IND",
+    "prediction": 15.64,
+    "line": 17.5,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kelsey Mitchell",
+    "team": "IND",
+    "prediction": 17.87,
+    "line": 21.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kelsey Mitchell",
+    "team": "IND",
+    "prediction": 0.58,
+    "line": 0.5,
+    "stat": "Offensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Kelsey Mitchell",
+    "team": "IND",
+    "prediction": 15.0,
+    "line": 17.0,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kelsey Mitchell",
+    "team": "IND",
+    "prediction": 22.65,
+    "line": 26.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kelsey Plum",
+    "team": "LVA",
+    "prediction": 23.86,
+    "line": 25.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kelsey Plum",
+    "team": "LVA",
+    "prediction": 3.87,
+    "line": 4.0,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kelsey Plum",
+    "team": "LVA",
+    "prediction": 14.13,
+    "line": 14.5,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kelsey Plum",
+    "team": "LVA",
+    "prediction": 17.06,
+    "line": 18.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jackie Young",
+    "team": "LVA",
+    "prediction": 13.48,
+    "line": 14.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jackie Young",
+    "team": "LVA",
+    "prediction": 22.06,
+    "line": 22.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Chelsea Gray",
+    "team": "LVA",
+    "prediction": 4.65,
+    "line": 5.0,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Chelsea Gray",
+    "team": "LVA",
+    "prediction": 10.08,
+    "line": 8.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Chelsea Gray",
+    "team": "LVA",
+    "prediction": 18.78,
+    "line": 16.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Lexie Hull",
+    "team": "IND",
+    "prediction": 4.35,
+    "line": 8.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Lexie Hull",
+    "team": "IND",
+    "prediction": 9.54,
+    "line": 14.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Arike Ogunbowale",
+    "team": "DAL",
+    "prediction": 4.49,
+    "line": 4.5,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Arike Ogunbowale",
+    "team": "DAL",
+    "prediction": 3.69,
+    "line": 4.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Arike Ogunbowale",
+    "team": "DAL",
+    "prediction": 18.74,
+    "line": 21.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jewell Loyd",
+    "team": "SEA",
+    "prediction": 18.65,
+    "line": 21.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jewell Loyd",
+    "team": "SEA",
+    "prediction": 15.43,
+    "line": 16.5,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Jewell Loyd",
+    "team": "SEA",
+    "prediction": 27.1,
+    "line": 28.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Nneka Ogwumike",
+    "team": "SEA",
+    "prediction": 5.27,
+    "line": 6.0,
+    "stat": "Defensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Nneka Ogwumike",
+    "team": "SEA",
+    "prediction": 6.82,
+    "line": 7.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Nneka Ogwumike",
+    "team": "SEA",
+    "prediction": 15.33,
+    "line": 16.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Skylar Diggins-Smith",
+    "team": "SEA",
+    "prediction": 5.21,
+    "line": 6.5,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Skylar Diggins-Smith",
+    "team": "SEA",
+    "prediction": 16.99,
+    "line": 16.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Skylar Diggins-Smith",
+    "team": "SEA",
+    "prediction": 25.39,
+    "line": 26.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Satou Sabally",
+    "team": "DAL",
+    "prediction": 26.76,
+    "line": 27.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Satou Sabally",
+    "team": "DAL",
+    "prediction": 4.16,
+    "line": 4.5,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Satou Sabally",
+    "team": "DAL",
+    "prediction": 16.15,
+    "line": 16.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Gabby Williams",
+    "team": "SEA",
+    "prediction": 10.51,
+    "line": 9.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Napheesa Collier",
+    "team": "MIN",
+    "prediction": 31.17,
+    "line": 33.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Napheesa Collier",
+    "team": "MIN",
+    "prediction": 15.28,
+    "line": 15.5,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Napheesa Collier",
+    "team": "MIN",
+    "prediction": 8.78,
+    "line": 9.0,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Napheesa Collier",
+    "team": "MIN",
+    "prediction": 6.88,
+    "line": 7.0,
+    "stat": "Defensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Napheesa Collier",
+    "team": "MIN",
+    "prediction": 18.08,
+    "line": 20.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Chennedy Carter",
+    "team": "CHI",
+    "prediction": 0.93,
+    "line": 0.5,
+    "stat": "Offensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Chennedy Carter",
+    "team": "CHI",
+    "prediction": 15.27,
+    "line": 16.5,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Chennedy Carter",
+    "team": "CHI",
+    "prediction": 23.92,
+    "line": 25.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Chennedy Carter",
+    "team": "CHI",
+    "prediction": 15.87,
+    "line": 18.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Courtney Williams",
+    "team": "MIN",
+    "prediction": 4.19,
+    "line": 4.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Courtney Williams",
+    "team": "MIN",
+    "prediction": 21.14,
+    "line": 22.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Courtney Williams",
+    "team": "MIN",
+    "prediction": 10.78,
+    "line": 11.5,
+    "stat": "FG Attempted",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Courtney Williams",
+    "team": "MIN",
+    "prediction": 4.86,
+    "line": 5.0,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Courtney Williams",
+    "team": "MIN",
+    "prediction": 11.08,
+    "line": 12.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kamilla Cardoso",
+    "team": "CHI",
+    "prediction": 8.02,
+    "line": 9.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kamilla Cardoso",
+    "team": "CHI",
+    "prediction": 2.63,
+    "line": 3.5,
+    "stat": "Offensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kamilla Cardoso",
+    "team": "CHI",
+    "prediction": 5.29,
+    "line": 6.0,
+    "stat": "Defensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kamilla Cardoso",
+    "team": "CHI",
+    "prediction": 10.29,
+    "line": 11.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Kamilla Cardoso",
+    "team": "CHI",
+    "prediction": 20.59,
+    "line": 23.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Isabelle Harrison",
+    "team": "CHI",
+    "prediction": 4.14,
+    "line": 7.5,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Isabelle Harrison",
+    "team": "CHI",
+    "prediction": 5.99,
+    "line": 12.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Alanna Smith",
+    "team": "MIN",
+    "prediction": 9.54,
+    "line": 8.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Alanna Smith",
+    "team": "MIN",
+    "prediction": 18.56,
+    "line": 16.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Alanna Smith",
+    "team": "MIN",
+    "prediction": 1.44,
+    "line": 1.5,
+    "stat": "Offensive Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Michaela Onyenwere",
+    "team": "CHI",
+    "prediction": 7.5,
+    "line": 10.5,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Bridget Carleton",
+    "team": "MIN",
+    "prediction": 7.58,
+    "line": 10.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Bridget Carleton",
+    "team": "MIN",
+    "prediction": 13.2,
+    "line": 17.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Alyssa Thomas",
+    "team": "CON",
+    "prediction": 24.52,
+    "line": 27.0,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Alyssa Thomas",
+    "team": "CON",
+    "prediction": 6.76,
+    "line": 7.5,
+    "stat": "Assists",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Alyssa Thomas",
+    "team": "CON",
+    "prediction": 8.25,
+    "line": 9.0,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Alyssa Thomas",
+    "team": "CON",
+    "prediction": 10.57,
+    "line": 10.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  },
+  {
+    "name": "Brionna Jones",
+    "team": "CON",
+    "prediction": 23.22,
+    "line": 23.5,
+    "stat": "Pts+Rebs+Asts",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Brionna Jones",
+    "team": "CON",
+    "prediction": 14.16,
+    "line": 15.0,
+    "stat": "Points",
+    "odds": "none",
+    "book": "pp",
+    "OU": "under"
+  },
+  {
+    "name": "Brionna Jones",
+    "team": "CON",
+    "prediction": 6.86,
+    "line": 6.0,
+    "stat": "Rebounds",
+    "odds": "none",
+    "book": "pp",
+    "OU": "over"
+  }
+]
