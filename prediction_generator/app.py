@@ -9,7 +9,7 @@ import database
 warnings.filterwarnings("ignore", category=UserWarning, message="pandas only supports SQLAlchemy")
 
 # Define the absolute path for the 'data' directory outside of the current folder
-DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'public', 'data'))
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src', 'data'))
 
 # Ensure the 'public/data' directory exists
 if not os.path.exists(DATA_DIR):

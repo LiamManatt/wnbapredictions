@@ -1,26 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import pp from "./icons/prizepicks.png";  // PrizePicks icon
 import betr from "./icons/betr.png";      // Betr icon
+import predictionsData from "./data/predictions.json"; // Import JSON file
 
 function App() {
-  const [predictions, setPredictions] = useState([]);
-  const [selectedSportsbooks, setSelectedSportsbooks] = useState([]); // Add this line to initialize the state
-
-  useEffect(() => {
-    const fetchPredictions = async () => {
-      try {
-        // Fetch predictions.json from the /public/data folder
-        const response = await fetch(`${process.env.PUBLIC_URL}/data/predictions.json`);
-        const data = await response.json();
-        setPredictions(data); // Set the data as an array of objects
-      } catch (error) {
-        console.error("Error fetching predictions:", error);
-      }
-    };
-
-    fetchPredictions();
-  }, []);
+  const [predictions, setPredictions] = useState(predictionsData);
+  const [selectedSportsbooks, setSelectedSportsbooks] = useState([]);
 
   const sortPredictions = () => {
     const sorted = [...predictions].sort((a, b) => {
