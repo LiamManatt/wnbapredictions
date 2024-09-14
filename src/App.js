@@ -12,7 +12,7 @@ function App() {
     const sorted = [...predictions].sort((a, b) => {
       const diffA = Math.abs((a.prediction - a.line) / a.line);
       const diffB = Math.abs((b.prediction - b.line) / b.line);
-      return diffB - diffA; // Sorting in descending order
+      return diffB - diffA; 
     });
     setPredictions(sorted);
   };
@@ -25,7 +25,7 @@ function App() {
     );
   };
 
-  // Function to get the icon based on the book
+
   const getBookIcon = (book) => {
     switch (book) {
       case "betr":
@@ -33,11 +33,10 @@ function App() {
       case "pp":
         return pp;
       default:
-        return null; // or a default icon
+        return null; 
     }
   };
 
-  // Function to determine the background color based on OU
   const getBackgroundColor = (ou) => {
     return ou === "under" ? "red" : ou === "over" ? "green" : "transparent";
   };
