@@ -11,7 +11,7 @@ function App() {
     const fetchPredictions = async () => {
       try {
         // Fetch predictions.json from the /public/data folder
-        const response = await fetch("/data/predictions.json");
+        const response = await fetch(`${process.env.PUBLIC_URL}/data/predictions.json`);
         const data = await response.json();
         setPredictions(data); // Set the data as an array of objects
       } catch (error) {
