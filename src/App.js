@@ -14,6 +14,7 @@ const criteria = {
 
 function App() {
   const [predictions, setPredictions] = useState(predictionsData);
+  const [flippedCards, setFlippedCards] = useState({}); // Track which cards are flipped
 
   const predictionsByStat = predictions.reduce((acc, prediction) => {
     const { stat } = prediction;
@@ -44,8 +45,21 @@ function App() {
     }
     return false;
   };
-  const getBackgroundColor = (ou) => {
-    return ou === "under" ? "red" : ou === "over" ? "green" : "transparent";
+
+  const getGradientBackground = (ou) => {
+    if (ou === "over") {
+      return `linear-gradient(to bottom, green, white)`;
+    } else if (ou === "under") {
+      return `linear-gradient(to bottom, red, white)`;
+    }
+    return "transparent";
+  };
+
+  const handleCardClick = (index) => {
+    setFlippedCards((prevFlipped) => ({
+      ...prevFlipped,
+      [index]: !prevFlipped[index], // Toggle the flipped state
+    }));
   };
 
   return (
@@ -55,7 +69,6 @@ function App() {
       <table>
         <thead>
           <tr>
-            <th>Prediction</th>
             {statTypes.map(stat => (
               <th key={stat}>{stat}</th>
             ))}
@@ -64,27 +77,50 @@ function App() {
         <tbody>
           {Array.from({ length: maxPredictions }).map((_, rowIndex) => (
             <tr key={rowIndex}>
-              <td>{rowIndex === 0 ? 'Prediction' : ''}</td>
               {statTypes.map(stat => {
                 const prediction = predictionsByStat[stat][rowIndex];
+                const cardIndex = `${stat}-${rowIndex}`; // Unique index for each card
+
                 return (
                   <td
                     key={stat}
-                    style={{ backgroundColor: prediction ? getBackgroundColor(prediction.OU) : 'transparent' }}
+                    onClick={() => handleCardClick(cardIndex)}
+                    className={`card ${flippedCards[cardIndex] ? "flipped" : ""}`} // Add flipped class based on state
+                    style={{
+                      background: prediction
+                        ? getGradientBackground(prediction.OU)
+                        : "transparent",
+                    }}
                   >
                     {prediction ? (
-                      <>
-                        <div>
-                          <strong>Prediction:</strong> {prediction.prediction}
+                      <div className="card-inner">
+                        {/* Front of the card */}
+                        <div className="card-front">
+                          <div className="star">
+                            {isCriteriaMet(prediction) && <span>&#9733;</span>}
+                          </div>
+                          <div>
+                            <strong>{prediction.name} ({prediction.team})</strong>
+                          </div>
+                          <div>
+                            <strong>Line:</strong> {prediction.line}
+                          </div>
+                          <div>
+                            <strong>Prediction:</strong> {prediction.prediction}
+                          </div>
                         </div>
-                        <div>
-                          <strong>Line:</strong> {prediction.line}
+                        {/* Back of the card */}
+                        <div className="card-back">
+                          <div>
+                            <strong>More Stats:</strong>
+                            <ul>
+                              {/* <li>FG%: {prediction.fg_percentage}</li>
+                              <li>Rebounds: {prediction.rebounds}</li>
+                              <li>Assists: {prediction.assists}</li> */}
+                            </ul>
+                          </div>
                         </div>
-                        <div>{prediction.name} ({prediction.team})</div>
-                        <div>
-                          {isCriteriaMet(prediction) && <span className="star">&#9733;</span>}
-                        </div>
-                      </>
+                      </div>
                     ) : (
                       <div>—</div>
                     )}
