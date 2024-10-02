@@ -1,121 +1,279 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4405a3;
+  background: linear-gradient(
+    135deg, /* This angle makes the gradient start from the bottom left and radiate to the top right */
+    #d900ff, /* Warm orange starting from the bottom left */
+    #4405a3 80% /* Golden yellow */)
+}
 
 .App {
-  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the header horizontally */
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  text-align: center; /* Centers the logo horizontally */
+  padding: 20px;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  color: transparent; /* Makes the text hollow */
+  -webkit-text-stroke: 3px rgb(49, 220, 23); /* Adds a thin black outline */
+  height: 100px;
+  margin-bottom: 0px;
+}
+.base {
+  width: 100%; /* Full width of the page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between; /* Distribute the sections evenly */
+  width: 100%; /* You can adjust the width */
+  margin-top: -50px;
+}
+.section {
+  flex: 1; /* Make each section take up one-third of the container */
+  margin: 0 10px; /* Add some margin between sections */
   text-align: center;
   padding: 20px;
 }
 
-.sportsbook-icons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+.section-title {
+  font-weight: bold;
+  color: transparent; /* Makes the text hollow */
+  -webkit-text-stroke: 3px rgb(49, 220, 23); /* Adds a thin black outline */
+  font-size: 36px;
+}
+.left-container {
+  width: 27%;
+  background-color: #242323;
+  padding: 20px;
+  box-sizing: border-box;
+  border-right: 2px solid #ccc; /* Optional: Adds a separator */
+  margin-left: 60px;
+  color: #ffffff;
+  
 }
 
-.sportsbook-icon {
-  margin: 0 10px;
+.right-container {
+  padding: 10px;
+  border-right: 2px solid #ccc; /* Optional: Adds a separator */
+  margin-right: 60px;
+  width: 27%; /* Set width of the container */
+  max-height: 80vh; /* Limit the height of the container */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+  gap: 10px; /* Space between boxes */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px;
+  background-color: #0f0e0e; /* Optional: Add background color */
+  border: 4px solid #6ed519;
+  border-radius: 8px;
+  direction: rtl;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.sortable-container {
+  width: 27%; /* Set width of the container */
+  max-height: 80vh; /* Limit the height of the container */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+  gap: 10px; /* Space between boxes */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px;
+  background-color: #0f0e0e; /* Optional: Add background color */
+  border: 4px solid #6ed519;
+  border-radius: 8px;
+  direction: rtl;
+}
+
+.item {
+  width: 250px; /* Fixed width */
+  height: 270px; /* Fixed height */
+  padding: 15px;
+  background-color: #242323; /* Background color */
+  border-radius: 25px;
+  transition: transform 0.3s;
   cursor: pointer;
+  color: white;
+  position: relative;
+  display: flex; /* Set as flex container */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text */
+  border: 2px solid #ffffff; /* Add white border with 2px thickness */
+  direction:ltr;
+}
+
+.item::before {
+  content: ""; /* Required to make the pseudo-element work */
+  position: absolute; /* Position it absolutely within the item */
+  width: 100px; /* Width of the circle */
+  height: 100px; /* Height of the circle */
+  background-image: url('icons/WNBA-Logo.png'); /* Path to your overlay image */
+  background-size: 200%; /* Adjust size of the logo */
+  background-position: center; /* Center the image within the circle */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  transform: translate(-50%, -50%); /* Center the circle */
+  top: 20%; /* Adjust to center vertically */
+  left: 50%; /* Adjust to center horizontally */
+}
+
+.item::after {
+  content: ""; /* Required for the pseudo-element */
+  position: absolute; /* Position it absolutely within the item */
+  top: 25px; /* Adjust this for vertical alignment */
+  right: 15px; /* Adjust this for horizontal alignment */
+  width: 40px; /* Width of the crown image */
+  height: 40px; /* Height of the crown image */
+  background-image: url('icons/crown.png'); /* Path to your crown image */
+  background-size: contain; /* Ensure the image fits within the area */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: none; /* Initially hide the crown */
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item.criteria-met::after {
+  display: block; /* Show the crown when criteria are met */
 }
 
 button {
-  margin-bottom: 20px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-}
-#my{
-  zoom: 70%;
-  }
-
-th, td {
-  border: 0px solid darkorchid;
-  text-align: center; /* Center align text in cells */
-  border-radius: 10px; /* Add rounded edges */
-  font-size: 24px; /* Increase text size for rows */
-  line-height: 1.8; /* Add more space between lines */
-  padding: 0;
-}
-
-td {
-  padding: 0;
-  border: 1px solid #ddd;
-  position: relative;
-  height: 400px; /* Increase height */
-  font-size: 30px; /* Slightly increase font size for better visibility */
-}
-
-th {
-  background-color: black;
-  font-size: 32px; /* Increase text size for column headers */
-  line-height: 1.5; /* Adjust line-height for column headers */
-  padding: 0;
-
-}
-
-.prediction-item {
-  /* Styling for individual prediction items */
-}
-
-img.sportsbook-icon {
-  width: 30px; /* Adjust icon size if needed */
-}
-
-.star {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: gold;
-  font-size: 50px; /* Increase star size */
-}
-
-body {
-  background-color: rgb(224, 218, 227);
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 16px;
+  background-color: #00796b;
   color: white;
-  font-family: 'Poppins', sans-serif;
-}
-.card {
-  width: 300x;
-  height: 300px;
+  border: none;
   cursor: pointer;
+  border-radius: 5px;
+  align-self: flex-start; /* Align the button to the left */
 }
 
-.card-inner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+button:hover {
+  background-color: #004d40;
 }
 
-.card.flipped .card-inner {
-  transform: rotateY(180deg);
+.player-info{
+  margin: 60px 2; /* Reduce spacing above and below */
+  transform: translateY(20px);
 }
 
-.card-front,
-.card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.prediction-text {
+  font-size: 30px; /* Change to desired font size */
+  color: #ffffff; /* Text color */
+  margin: 10px 0; /* Reduce spacing above and below */
+}
+.stat-text {
+  font-size: 18px; /* Change to desired font size */
+  color: #ddd; /* A different color for the line */
+  margin: 5px 0; /* Reduce spacing above and below */
+}
+.line-text {
+  font-size: 30px; /* Change to desired font size */
+  color: #ddd; /* A different color for the line */
+  margin: 2px 0; /* Reduce spacing above and below */
 }
 
-
-.card-front {
-  color: white; /* Change text color to white */
-  transform: translateY(-150px);
-  text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black; /* Add black outline */
+.over-under-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    width: 100%; /* Take the full width of the card */
+    height: 25%; /* Take the full width of the card */
+    margin-top: 10px; /* Space above the Over/Under section */
+    bottom: 0px;
+    position: absolute;
 }
 
-.card-back {
-  background-color: #333;
+.over {
+  cursor: pointer; /* Change cursor to pointer for clickable */
+  flex: 1; /* Allow them to take equal space */
+  padding: 15px; /* Add some padding for touch targets */
+  background-color: #242323; /* Background color */
+  color: white; /* Text color */
+  border-radius: 12.5px 0 0 12.5px; /* Rounded top-left and bottom-left corners */
+  text-align: center; /* Center the text */
+  border: 1px solid transparent; /* Add a border */
+  transition: background-color 0.3s, border 0.3s; /* Smooth transition */
+  font-size: 18px; /* Increase the font size */
+  line-height: 1.5; /* Increase line height for better spacing */
+  border-radius: 0 0 0 12.5px; /* Rounded corners for the left box */
+  border-right: 3px solid white; /* Add a white line on the right */
+  border-top: 4px solid white; 
+  border-bottom: 2px solid white; /* Add white line on bottom-left */
+  border-left: 2px solid white; /* Add white line on bottom-left */
+  margin-right: 0px;
+}
+
+.under {
+  cursor: pointer; /* Change cursor to pointer for clickable */
+  flex: 1; /* Allow them to take equal space */
+  padding: 15px; /* Add some padding for touch targets */
+  background-color: #242323; /* Background color */
+  color: white; /* Text color */
+  border-radius: 0 0 12.5px 0; /* Rounded top-right and bottom-right corners */
+  text-align: center; /* Center the text */
+  border: 1px solid transparent; /* Add a border */
+  transition: background-color 0.3s, border 0.3s; /* Smooth transition */
+  font-size: 18px; /* Increase the font size */
+  line-height: 1.5; /* Increase line height for better spacing */
+  border-top: 4px solid white;
+  border-left: 3px solid white; 
+  border-bottom: 2px solid white; /* Add white line on bottom-left */
+  border-right: 2px solid white; /* Add white line on bottom-left */
+  margin-left: 0px;
+}
+
+.over:hover, .under:hover {
+    background-color: #004d40; /* Darker background on hover */
+    border: 2px solid white; /* Add a border on hover */
+}
+
+.remove-button {
+  background-color: #ff4d4f;
   color: white;
-  transform: rotateY(180deg) translateY(-150px);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: -10px;
 }
 
+.remove-button:hover {
+  background-color: #d9363e;
+}
+
+.leftplayer-name{
+  text-align: center;
+  font-size: 24px;
+}
+
+.leftteam-name{
+  text-align: center;
+  font-size: 24px;
+}
+
+.leftstat{
+  text-align: center;
+  font-size: 24px;
+}
