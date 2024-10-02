@@ -107,8 +107,8 @@ body {
 }
 
 .item {
-  width: 250px; /* Fixed width */
-  height: 270px; /* Fixed height */
+  width: 200px; /* Fixed width */
+  height: 215px; /* Fixed height */
   padding: 15px;
   background-color: #242323; /* Background color */
   border-radius: 25px;

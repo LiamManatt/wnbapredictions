@@ -135,7 +135,7 @@ function App() {
       data={{
         labels: selectedCard.last_games.map((_, index) => `Game ${index + 1}`).reverse(), // Reverse the x-axis labels
         datasets: [{
-          label: `${selectedCard.name}'s ${selectedCard.stat} in Last 5 Games`,
+          label: `${selectedCard.name}'s ${selectedCard.stat}:`,
           data: selectedCard.last_games.slice().reverse(), // Reverse the order of data
           backgroundColor: selectedCard.last_games.map((gameStat) =>
             gameStat > selectedCard.line
@@ -222,40 +222,40 @@ function App() {
     />
   </div>
 )}
-<p className="leftplayer-line" style={{ fontSize: '25px', fontWeight: 'bold' }}>
+<p className="leftplayer-line" style={{ fontSize: '22px', fontWeight: 'bold' }}>
   <strong>Line:   </strong>{selectedCard.line}
 </p>
 
-<p className="leftplayer-prediction" style={{ fontSize: '25px', fontWeight: 'bold' }}>
+<p className="leftplayer-prediction" style={{ fontSize: '22px', fontWeight: 'bold' }}>
   <strong>Prediction:   </strong> 
   <span style={{ color: selectedCard.prediction < selectedCard.line ? 'red' : 'green' }}>
     {selectedCard.prediction}
   </span>
 </p>
 
-<p className="leftplayer-prediction" style={{ fontSize: '25px', fontWeight: 'bold' }}>
+<p className="leftplayer-prediction" style={{ fontSize: '22px', fontWeight: 'bold' }}>
   <strong>Season Average:   </strong> 
   <span style={{ color: selectedCard.stat_avg < selectedCard.line ? 'red' : 'green' }}>
     {selectedCard.stat_avg}
   </span>
 </p>
 
-<p className="leftplayer-line" style={{ fontSize: '25px', fontWeight: 'bold' }}>
+<p className="leftplayer-line" style={{ fontSize: '22px', fontWeight: 'bold' }}>
   <strong>Opponent {selectedCard.stat} Allowed:   </strong> {selectedCard.stat_allowed}
 </p>
 
-<p className="leftplayer-prediction" style={{ fontSize: '25px', fontWeight: 'bold' }}>
+<p className="leftplayer-prediction" style={{ fontSize: '22px', fontWeight: 'bold' }}>
   <strong>Opponent {selectedCard.stat} Allowed Rank:   </strong> 
   <span style={{ color: selectedCard.stat_allowed_rank < 7 ? 'red' : 'green' }}>
     {selectedCard.stat_allowed_rank}
   </span>
 </p>
 
-<p className="leftplayer-line" style={{ fontSize: '25px', fontWeight: 'bold' }}>
+<p className="leftplayer-line" style={{ fontSize: '22px', fontWeight: 'bold' }}>
   <strong>Positional {selectedCard.stat} Allowed:   </strong> {selectedCard.pos_allowed}
 </p>
 
-<p className="leftplayer-prediction" style={{ fontSize: '25px', fontWeight: 'bold' }}>
+<p className="leftplayer-prediction" style={{ fontSize: '22px', fontWeight: 'bold' }}>
   <strong>Positional {selectedCard.stat} Allowed Rank:   </strong> 
   <span style={{ color: selectedCard.pos_allowed_rank < 7 ? 'red' : 'green' }}>
     {selectedCard.pos_allowed_rank}
