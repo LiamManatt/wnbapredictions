@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/wnbapredictions/static/css/main.a0ed2620.css",
-    "main.js": "/wnbapredictions/static/js/main.4db4a9e7.js",
+    "main.css": "/wnbapredictions/static/css/main.98b65eb1.css",
+    "main.js": "/wnbapredictions/static/js/main.6c9898d9.js",
     "static/js/453.e312a635.chunk.js": "/wnbapredictions/static/js/453.e312a635.chunk.js",
+    "static/media/crown.png": "/wnbapredictions/static/media/crown.412d05052cf62af9b019.png",
     "index.html": "/wnbapredictions/index.html",
-    "main.a0ed2620.css.map": "/wnbapredictions/static/css/main.a0ed2620.css.map",
-    "main.4db4a9e7.js.map": "/wnbapredictions/static/js/main.4db4a9e7.js.map",
+    "main.98b65eb1.css.map": "/wnbapredictions/static/css/main.98b65eb1.css.map",
+    "main.6c9898d9.js.map": "/wnbapredictions/static/js/main.6c9898d9.js.map",
     "453.e312a635.chunk.js.map": "/wnbapredictions/static/js/453.e312a635.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0ed2620.css",
-    "static/js/main.4db4a9e7.js"
+    "static/css/main.98b65eb1.css",
+    "static/js/main.6c9898d9.js"
   ]
 }
