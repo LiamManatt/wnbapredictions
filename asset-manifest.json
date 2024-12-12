@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wnbapredictions/static/css/main.0b1cfe17.css",
-    "main.js": "/wnbapredictions/static/js/main.653fa309.js",
+    "main.js": "/wnbapredictions/static/js/main.f2c39523.js",
     "static/js/453.e312a635.chunk.js": "/wnbapredictions/static/js/453.e312a635.chunk.js",
     "static/media/crown.png": "/wnbapredictions/static/media/crown.412d05052cf62af9b019.png",
     "index.html": "/wnbapredictions/index.html",
     "main.0b1cfe17.css.map": "/wnbapredictions/static/css/main.0b1cfe17.css.map",
-    "main.653fa309.js.map": "/wnbapredictions/static/js/main.653fa309.js.map",
+    "main.f2c39523.js.map": "/wnbapredictions/static/js/main.f2c39523.js.map",
     "453.e312a635.chunk.js.map": "/wnbapredictions/static/js/453.e312a635.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b1cfe17.css",
-    "static/js/main.653fa309.js"
+    "static/js/main.f2c39523.js"
   ]
 }
